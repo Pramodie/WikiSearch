@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		D6184B2023EEDCBA00D0B0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6184B1F23EEDCBA00D0B0CB /* Assets.xcassets */; };
 		D6184B2323EEDCBA00D0B0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6184B2123EEDCBA00D0B0CB /* LaunchScreen.storyboard */; };
 		D6184B2B23EFB96000D0B0CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6184B2A23EFB96000D0B0CB /* GoogleService-Info.plist */; };
+		D6B3685D23F1967A00B7B5B4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3685C23F1967A00B7B5B4 /* CustomTableViewCell.swift */; };
+		D6B3685F23F19D7100B7B5B4 /* APIRequestFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3685E23F19D7100B7B5B4 /* APIRequestFetcher.swift */; };
+		D6B3686123F19DDF00B7B5B4 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3686023F19DDF00B7B5B4 /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		D6184B2223EEDCBA00D0B0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6184B2423EEDCBA00D0B0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6184B2A23EFB96000D0B0CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6B3685C23F1967A00B7B5B4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D6B3685E23F19D7100B7B5B4 /* APIRequestFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestFetcher.swift; sourceTree = "<group>"; };
+		D6B3686023F19DDF00B7B5B4 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 		F28DE61C00507EAE40EDF736 /* Pods-WikiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiSearch.debug.xcconfig"; path = "Target Support Files/Pods-WikiSearch/Pods-WikiSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +56,6 @@
 				F28DE61C00507EAE40EDF736 /* Pods-WikiSearch.debug.xcconfig */,
 				18396D32CC16173709297197 /* Pods-WikiSearch.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +88,9 @@
 				D6184B2A23EFB96000D0B0CB /* GoogleService-Info.plist */,
 				D6184B2423EEDCBA00D0B0CB /* Info.plist */,
 				D6184B1C23EEDCB900D0B0CB /* WikiSearch.xcdatamodeld */,
+				D6B3685C23F1967A00B7B5B4 /* CustomTableViewCell.swift */,
+				D6B3685E23F19D7100B7B5B4 /* APIRequestFetcher.swift */,
+				D6B3686023F19DDF00B7B5B4 /* SearchResultsTableViewController.swift */,
 			);
 			path = WikiSearch;
 			sourceTree = "<group>";
@@ -213,6 +221,9 @@
 			files = (
 				D6184B1823EEDCB900D0B0CB /* ViewController.swift in Sources */,
 				D6184B1E23EEDCB900D0B0CB /* WikiSearch.xcdatamodeld in Sources */,
+				D6B3686123F19DDF00B7B5B4 /* SearchResultsTableViewController.swift in Sources */,
+				D6B3685F23F19D7100B7B5B4 /* APIRequestFetcher.swift in Sources */,
+				D6B3685D23F1967A00B7B5B4 /* CustomTableViewCell.swift in Sources */,
 				D6184B1623EEDCB900D0B0CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
